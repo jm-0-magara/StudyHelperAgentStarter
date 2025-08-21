@@ -12,11 +12,11 @@ class Settings:
     TELEGRAM_WEBHOOK_URL: Optional[str] = os.getenv("TELEGRAM_WEBHOOK_URL")
     
     # Database Settings
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://localhost:5432/StudyHelperDB")
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "")
     DATABASE_HOST: str = os.getenv("DATABASE_HOST", "localhost")
     DATABASE_PORT: int = int(os.getenv("DATABASE_PORT", "5432"))
-    DATABASE_NAME: str = os.getenv("DATABASE_NAME", "StudyHelperDB")
-    DATABASE_USER: str = os.getenv("DATABASE_USER", "SHIFU123457")
+    DATABASE_NAME: str = os.getenv("DATABASE_NAME", "")
+    DATABASE_USER: str = os.getenv("DATABASE_USER", "")
     DATABASE_PASSWORD: str = os.getenv("DATABASE_PASSWORD", "")
     
     # AI Model Settings
@@ -26,8 +26,6 @@ class Settings:
     MAX_CONTEXT_LENGTH: int = int(os.getenv("MAX_CONTEXT_LENGTH", "4096"))
     
     # LMS Settings
-    MOODLE_BASE_URL: Optional[str] = os.getenv("MOODLE_BASE_URL")
-    MOODLE_TOKEN: Optional[str] = os.getenv("MOODLE_TOKEN")
     GOOGLE_CLASSROOM_CREDENTIALS: Optional[str] = os.getenv("GOOGLE_CLASSROOM_CREDENTIALS")
     
     # Application Settings
