@@ -13,11 +13,6 @@ class Settings:
     
     # Database Settings
     DATABASE_URL: str = os.getenv("DATABASE_URL", "")
-    DATABASE_HOST: str = os.getenv("DATABASE_HOST", "localhost")
-    DATABASE_PORT: int = int(os.getenv("DATABASE_PORT", "5432"))
-    DATABASE_NAME: str = os.getenv("DATABASE_NAME", "")
-    DATABASE_USER: str = os.getenv("DATABASE_USER", "")
-    DATABASE_PASSWORD: str = os.getenv("DATABASE_PASSWORD", "")
     
     # AI Model Settings
     MODEL_NAME: str = os.getenv("MODEL_NAME", "meta-llama/Llama-2-7b-chat-hf")

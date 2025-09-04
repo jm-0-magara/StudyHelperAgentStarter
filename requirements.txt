@@ -2,17 +2,19 @@
 #In addition to the above, psycopg2 (& alembic) also install
 #used supabase.com for connection to db
 # Telegram Bot
-python-telegram-bot==20.7
-telegram==0.0.1
+#python-telegram-bot==20.7
+#telegram==0.0.1
 
 # Web Framework
-fastapi==0.104.1
-uvicorn==0.24.0
+#fastapi==0.104.1
+#uvicorn==0.24.0
 
 # Database
-sqlalchemy==2.0.23
-psycopg2-binary==2.9.9
-alembic==1.12.1
+#sqlalchemy==2.0.23
+#psycopg2-binary==2.9.9
+#alembic==1.12.1
+
+#THE ABOVE HAVE ALREADY BEEN INSTALLED
 
 # AI/ML Libraries
 transformers==4.35.2

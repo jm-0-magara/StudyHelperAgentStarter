@@ -3,8 +3,8 @@ import logging
 import sys
 from pathlib import Path
 
-# Add src directory to Python path
-sys.path.append(str(Path(__file__).parent))
+# Add project root directory to Python path
+sys.path.append(str(Path(__file__).parent.parent))
 
 from bot.handlers import StudyHelperBot
 from config.database import db_manager

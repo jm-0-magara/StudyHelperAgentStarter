@@ -188,7 +188,7 @@ Use /settings to customize your preferences!
     
     async def courses_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """Handle /courses command"""
-        # For now, show mock courses since we haven't implemented LMS integration yet
+        # For now, this shows mock courses since we haven't implemented LMS integration yet
         courses_text = """
 📚 **Your Enrolled Courses**
 
